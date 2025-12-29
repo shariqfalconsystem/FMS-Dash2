@@ -129,18 +129,18 @@
                                             class="group relative text-sm flex items-center py-2 px-3 rounded-md text-white dark:text-white hover:rounded-2xl hover:bg-black/20 hover:text-white dark:hover:text-white "><i
                                                 class="bi bi-speedometer2 text-lg"></i><span
                                                 class="ml-3 flex-grow whitespace-nowrap ">Dashboard</span></a></li>
-                                    <li class="relative"><a href="#!"
+                                    <!-- <li class="relative"><a href="#!"
                                             class="group relative text-sm flex items-center py-2 px-3 rounded-md text-white dark:text-white hover:rounded-2xl hover:bg-black/20 hover:text-white dark:hover:text-white "><i
                                                 class="bi bi-envelope text-lg"></i><span
                                                 class="ml-3 flex-grow whitespace-nowrap ">Mail</span><span
                                                 class="text-xs font-medium bg-blue-500 text-white px-2 py-0.5 rounded-full ml-auto ">289</span></a>
-                                    </li>
-                                    <li class="relative"><a href="#!"
+                                    </li> -->
+                                    <!-- <li class="relative"><a href="#!"
                                             class="group relative text-sm flex items-center py-2 px-3 rounded-md text-white dark:text-white hover:rounded-2xl hover:bg-black/20 hover:text-white dark:hover:text-white "><i
                                                 class="bi bi-gem text-lg"></i><span
                                                 class="ml-3 flex-grow whitespace-nowrap ">Icons</span><span
                                                 class="text-xs font-medium bg-green-500 text-white px-2 py-0.5 rounded-full ml-auto ">New</span></a>
-                                    </li>
+                                    </li> -->
                                     <li class="relative"><a href="#!"
                                             class="group relative text-sm flex items-center py-2 px-3 rounded-md text-white dark:text-white hover:rounded-2xl hover:bg-black/20 hover:text-white dark:hover:text-white "><i
                                                 class="bi bi-file-earmark-plus text-lg"></i><span

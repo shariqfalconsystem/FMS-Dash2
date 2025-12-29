@@ -12529,27 +12529,51 @@ const Mx = J0(zx)
             label: "Dashboard",
             icon: "bi-speedometer2",
             href: "#!"
-        }, {
-            id: "mail",
-            label: "Mail",
-            icon: "bi-envelope",
-            href: "#!",
-            badge: {
-                text: "289",
-                color: "bg-blue-500"
-            }
-        }, {
-            id: "icons",
-            label: "Icons",
-            icon: "bi-gem",
-            href: "#!",
-            badge: {
-                text: "New",
-                color: "bg-green-500"
-            }
-        }, {
+        },{
             id: "vehicle-engine-data",
             label: "Vehicle & Engine Data",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "ignition-status",
+                label: "Ignition Status",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
+                icon: "",
+                href: "#!"
+            }]
+        },{
+            id: "Location",
+            label: "Driver Behavior Data",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "ignition-status",
+                label: "Ignition Status",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
+                icon: "",
+                href: "#!"
+            }]
+        },{
+            id: "",
+            label: "Fuel & Efficiency Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
