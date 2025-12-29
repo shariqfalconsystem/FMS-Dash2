@@ -12551,7 +12551,7 @@ const Mx = J0(zx)
                 href: "#!"
             }]
         },{
-            id: "Location",
+            id: "driver-behavior-data",
             label: "Driver Behavior Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
@@ -12572,8 +12572,71 @@ const Mx = J0(zx)
                 href: "#!"
             }]
         },{
-            id: "",
+            id: "fuel-efficiency-data",
             label: "Fuel & Efficiency Data",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "ignition-status",
+                label: "Ignition Status",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
+                icon: "",
+                href: "#!"
+            }]
+        },{
+            id: "device-vehicle-health-data",
+            label: "Device & Vehicle Health Data",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "ignition-status",
+                label: "Ignition Status",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
+                icon: "",
+                href: "#!"
+            }]
+        },{
+            id: "alerts-events",
+            label: "Alerts & Events",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "ignition-status",
+                label: "Ignition Status",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
+                icon: "",
+                href: "#!"
+            }]
+        },{
+            id: "network-communication-data",
+            label: "Network & Communication Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
