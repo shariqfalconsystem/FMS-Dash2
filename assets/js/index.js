@@ -12548,57 +12548,27 @@ const Mx = J0(zx)
                 color: "bg-green-500"
             }
         }, {
-            id: "extra-page",
-            label: "Extra Page",
+            id: "vehicle-engine-data",
+            label: "Vehicle & Engine Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "profile-page",
-                label: "Profile Page",
+                id: "vehicle-speed",
+                label: "Vehicle Speed",
                 icon: "",
                 href: "#!"
             }, {
-                id: "invoice-page",
-                label: "Invoice Page",
+                id: "ignition-status",
+                label: "Ignition Status",
                 icon: "",
                 href: "#!"
             }, {
-                id: "pricing-table",
-                label: "Pricing Table",
-                icon: "",
-                href: "#!"
-            }, {
-                id: "timeline",
-                label: "Timeline",
-                icon: "",
-                href: "#!"
-            }, {
-                id: "lock-screen",
-                label: "Lock Screen",
-                icon: "",
-                href: "#!"
-            }, {
-                id: "404-error",
-                label: "404 Error Page",
-                icon: "",
-                href: "#!"
-            }, {
-                id: "500-error",
-                label: "500 Error Page",
+                id: "engine-on/off-status",
+                label: "Engine On/Off Status",
                 icon: "",
                 href: "#!"
             }]
-        }, {
-            id: "login",
-            label: "Login",
-            icon: "bi-box-arrow-in-right",
-            href: "#!"
-        }, {
-            id: "signup",
-            label: "Sign Up",
-            icon: "bi-person-plus",
-            href: "#!"
-        }]
+        },]
     }, {
         title: "WIDGET MENU",
         items: [{
