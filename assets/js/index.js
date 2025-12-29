@@ -12551,23 +12551,54 @@ const Mx = J0(zx)
                 href: "#!"
             }]
         },{
+            id: "location",
+            label: "Location",
+            icon: "bi-file-earmark-plus",
+            href: "#!",
+            submenu: [{
+                id: "real-time-vehicle-location",
+                label: "Real Time Vehicle Location",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "trip-start-end-point",
+                label: "Trip Start & End Point",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "route-history",
+                label: "Route History",
+                icon: "",
+                href: "#!"
+            },{
+                id: "lattidude-longitude",
+                label: "Lattitude & Longitude",
+                icon: "",
+                href: "#!"
+            }]
+        },{
             id: "driver-behavior-data",
             label: "Driver Behavior Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "vehicle-speed",
-                label: "Vehicle Speed",
+                id: "overspeed-events",
+                label: "Overspeed Events",
                 icon: "",
                 href: "#!"
             }, {
-                id: "ignition-status",
-                label: "Ignition Status",
+                id: "harsh-acceleration",
+                label: "Harsh Acceleration",
                 icon: "",
                 href: "#!"
             }, {
-                id: "engine-on/off-status",
-                label: "Engine On/Off Status",
+                id: "harsh-braking",
+                label: "Harsh Braking",
+                icon: "",
+                href: "#!"
+            },{
+                id: "idle-time",
+                label: "Idle Time",
                 icon: "",
                 href: "#!"
             }]
@@ -12577,39 +12608,44 @@ const Mx = J0(zx)
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "vehicle-speed",
-                label: "Vehicle Speed",
+                id: "fuel-usage-per-trip",
+                label: "Fuel Usage Per Trip",
                 icon: "",
                 href: "#!"
             }, {
-                id: "ignition-status",
-                label: "Ignition Status",
+                id: "fuel-drain-events",
+                label: "Fuel-Drain-Events",
                 icon: "",
                 href: "#!"
             }, {
-                id: "engine-on/off-status",
-                label: "Engine On/Off Status",
+                id: "fuel-refill-events",
+                label: "Fuel-Refill-Events",
                 icon: "",
                 href: "#!"
             }]
         },{
-            id: "device-vehicle-health-data",
-            label: "Device & Vehicle Health Data",
+            id: "vehicle-health-data",
+            label: "Vehicle Health Data",
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "vehicle-speed",
-                label: "Vehicle Speed",
+                id: "device-battery-status",
+                label: "Device Battery Status",
                 icon: "",
                 href: "#!"
             }, {
-                id: "ignition-status",
-                label: "Ignition Status",
+                id: "gps-signal-strength",
+                label: "GPS Signal Strength",
                 icon: "",
                 href: "#!"
             }, {
-                id: "engine-on/off-status",
-                label: "Engine On/Off Status",
+                id: "device-reboot/fault-logs",
+                label: "Device Reboot/Fault Logs",
+                icon: "",
+                href: "#!"
+            }, {
+                id: "cellular-signal-strength",
+                label: "Cellular Signal Strength",
                 icon: "",
                 href: "#!"
             }]
@@ -12619,18 +12655,23 @@ const Mx = J0(zx)
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "vehicle-speed",
-                label: "Vehicle Speed",
+                id: "ignition-on/off-alerts",
+                label: "Ignition On/Off Alerts",
                 icon: "",
                 href: "#!"
             }, {
-                id: "ignition-status",
-                label: "Ignition Status",
+                id: "overspeed-alerts",
+                label: "Overspeed Alerts",
                 icon: "",
                 href: "#!"
             }, {
-                id: "engine-on/off-status",
-                label: "Engine On/Off Status",
+                id: "engine-fault-alerts",
+                label: "Engine Fault Alerts",
+                icon: "",
+                href: "#!"
+            },{
+                id: "low-battery-alerts",
+                label: "Low Battery Alerts",
                 icon: "",
                 href: "#!"
             }]
@@ -12640,18 +12681,18 @@ const Mx = J0(zx)
             icon: "bi-file-earmark-plus",
             href: "#!",
             submenu: [{
-                id: "vehicle-speed",
-                label: "Vehicle Speed",
+                id: "cellular-network-status",
+                label: "Cellular Network Status",
                 icon: "",
                 href: "#!"
             }, {
-                id: "ignition-status",
-                label: "Ignition Status",
+                id: "firmware-version",
+                label: "Firmware Version",
                 icon: "",
                 href: "#!"
             }, {
-                id: "engine-on/off-status",
-                label: "Engine On/Off Status",
+                id: "device-configurations-state",
+                label: "Device Configurations State",
                 icon: "",
                 href: "#!"
             }]
